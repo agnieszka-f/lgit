@@ -9,3 +9,5 @@ for shop, products in shoppingList.items():
   count = count + len(products)
 
 print(f"W sumie kupuję {count} produktów.".upper())
+
+print("\nPozdrawiam serdecznie!")
