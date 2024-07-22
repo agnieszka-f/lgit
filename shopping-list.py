@@ -1,4 +1,4 @@
-print("Moja lista zakupów:")
+print("Moja lista zakupów:".upper())
 shoppingList = {
   "Piekarnia" : ['Chleb', 'Pączek', 'Bułki'],
   "Warzywniak" : ['Marchew', 'Seler', 'Rukola']
@@ -8,4 +8,4 @@ for shop, products in shoppingList.items():
   print(f"Idę do {shop.upper()} i kupuję tam następujące rzeczy: {[p.upper() for p in products]}")
   count = count + len(products)
 
-print(f"W sumie kupuję {count} produktów.")
+print(f"W sumie kupuję {count} produktów.".upper())
